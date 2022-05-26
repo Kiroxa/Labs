@@ -1,0 +1,15 @@
+<MyScreenView>:
+    # Will always be at the bottom of the screen.
+    MDBottomAppBar:
+
+        MDToolbar:
+            # it is a blue menu with buttons on the buttom of the screen
+            title: "Skip Table"
+            icon: "plus"
+            type: "bottom"
+            on_action_button: root.open_dialog(mode="input")
+
+            # create 'buttons' and conect functions to them
+            right_action_items: [["refresh", lambda x: root.refresh()], ["upload", lambda x: root.open_dialog(mode="upload")], ["content-save-outline", lambda x: root.open_dialog(mode="save")]]
+            left_action_items: [["trash-can-outline", lambda x: root.open_dialog(mode="delete")], ["filter-outline", lambda x: root.open_dialog(mode="filter")]]
+

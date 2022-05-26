@@ -1,0 +1,138 @@
+<MyTextField@MDTextField>:
+    size_hint: 0.5, 0.1
+    input_type: "text"
+
+
+<MyNumberField@MyTextField>:
+    max_text_length: 5
+
+
+<DialogContent>:
+    orientation: "vertical"
+    spacing: "12dp"
+    size_hint_y: None
+    height: "300dp"
+
+
+<SaveDialogContent>:
+    height: "50dp"
+
+    path: save_path
+
+    MyTextField:
+        id: save_path
+        hint_text: "enter path"
+
+
+<UploadDialogContent>:
+    height: "50dp"
+
+    path: upload_path
+
+    MyTextField:
+        id: upload_path
+        hint_text: "enter path"
+
+
+<InputDialogContent>:
+    
+    fio: input_fio
+    group: input_group
+    sick: input_sick
+    skip: input_skip
+    other: input_other
+
+
+    MyTextField:
+        id: input_fio
+        hint_text: "Enter FIO"
+
+    MyTextField:
+        id: input_group
+        hint_text: "Enter Group"
+
+    MyNumberField:
+        id: input_sick
+        hint_text: "Enter Sick"
+
+    MyNumberField:
+        id: input_skip
+        hint_text: "Enter Skip"
+
+    MyNumberField:
+        id: input_other
+        hint_text: "Enter Other"
+
+
+<FilterDialogContent>:
+    
+    height: "360dp"
+
+    fio: filter_fio
+    group: filter_group
+    sick: filter_sick
+    skip: filter_skip
+    other: filter_other
+    total: filter_total
+
+
+    MyTextField:
+        id: filter_fio
+        hint_text: "Enter FIO"
+
+    MyTextField:
+        id: filter_group
+        hint_text: "Enter Group"
+
+    MyNumberField:
+        id: filter_sick
+        hint_text: "Enter Sick"
+
+    MyNumberField:
+        id: filter_skip
+        hint_text: "Enter Skip"
+
+    MyNumberField:
+        id: filter_other
+        hint_text: "Enter Other"
+
+    MyNumberField:
+        id: filter_total
+        hint_text: "Enter Total"
+
+
+<DeleteDialogContent>:
+    
+    height: "360dp"
+
+    fio: delete_fio
+    group: delete_group
+    sick: delete_sick
+    skip: delete_skip
+    other: delete_other
+    total: delete_total
+
+
+    MyTextField:
+        id: delete_fio
+        hint_text: "Enter FIO"
+
+    MyTextField:
+        id: delete_group
+        hint_text: "Enter Group"
+
+    MyNumberField:
+        id: delete_sick
+        hint_text: "Enter Sick"
+
+    MyNumberField:
+        id: delete_skip
+        hint_text: "Enter Skip"
+
+    MyNumberField:
+        id: delete_other
+        hint_text: "Enter Other"
+
+    MyNumberField:
+        id: delete_total
+        hint_text: "Enter Total"

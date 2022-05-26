@@ -1,0 +1,22 @@
+[
+    {
+        "display_w": 600,
+        "display_h": 400,
+        "fps": 60,
+        "paddle_speed": 5,
+        "ball_speed": 3
+    },
+    {
+        "caption": "Arkanoid",
+        "icon": "./items/game_icon.bmp",
+        "background": "./items/background.jpg"
+    },
+    {
+        "bad_bonus_sound": "./sounds/bad-bonus.wav",
+        "good_bonus_sound": "./sounds/good-bonus.wav",
+        "end_or_next_sound": "./sounds/end-or-next.wav",
+        "ball_block_sound": "./sounds/block-hit.wav",
+        "paddle_sound": "./sounds/paddle-hit.wav",
+        "gray_block_sound": "./sounds/gray-block.wav"
+    }
+]

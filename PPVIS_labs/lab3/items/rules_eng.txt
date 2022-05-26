@@ -1,0 +1,17 @@
+Rules of the game Arkanoid
+
+Purpose of the game
+The goal of the Arkanoid game is to destroy all the colored panels with the ball as quickly as possible
+
+How to play
+With the help of the left and right buttons of the control platform
+Use good bonuses for yourself bad bonuses for rivals
+to quickly break all the bricks
+
+
+Game bonuses
+1 Burning ball is a ball that burns through all the blocks through
+2 Platform Reducer is a surface area is reduced by 30 seconds
+3 Platform Enlarger is an area of ​​​​the intended platform takes up 30 seconds more
+4 Kettlebell slows down the action of the platform for 30 seconds
+5 Plus blocks are release one line of blocks on your field
